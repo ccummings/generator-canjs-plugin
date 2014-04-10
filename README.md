@@ -1,4 +1,4 @@
-![Build Status](https://secure.travis-ci.org/ccummings/generator-canjs-plugin.png?branch=master)](https://travis-ci.org/ccummings/generator-canjs-plugin)
+[![Build Status](https://secure.travis-ci.org/ccummings/generator-canjs-plugin.png?branch=master)](https://travis-ci.org/ccummings/generator-canjs-plugin)
 
 # CanJS Plugin Generator
 
