@@ -1,0 +1,31 @@
+{
+	"name": "<%= pluginFullName %>",
+	"version": "0.0.0",
+	<% if(hasGitHubInfo) { %>
+		"author": {
+			"name": "<%= name %>",
+			"email": "<%= email %>",
+			"url": "<%= githubUrl %>"
+		},
+		"repository": {
+			"type": "git",
+			"url": "git://github.com/<%= githubUser %>/<%= pluginFullName %>.git"
+		},
+	<% } %>
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/mit-license.php"
+		}
+	],
+	"ignore": [
+		".jshintrc",
+		"bower_components"
+	],
+	"devDependencies": {
+		"canjs": "~2.0.6",
+		"requirejs": "~2.1.11",
+		"jquery": "*",
+		"qunit": "1.10.x"
+	}
+}

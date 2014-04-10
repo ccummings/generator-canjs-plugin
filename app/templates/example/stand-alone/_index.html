@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title><%= pluginName %> - Stand alone usage</title>
+</head>
+
+<body>
+	<!-- Demo DOM goes here -->
+	<script src="../../bower_components/jquery/dist/jquery.js"></script>
+	<script src="../../bower_components/canjs/can.jquery.js"></script>
+	<script src="../../src/<%= pluginFullName %>.js"></script>
+	<script>
+		(function(window, can, undefined){
+			//Demo JS goes here
+		}(this, can));
+	</script>
+	</body>
+</html>

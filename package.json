@@ -1,0 +1,37 @@
+{
+	"name": "generator-canjs-plugin",
+	"version": "0.1.0",
+	"description": "Yeoman generator for CanJS plugins",
+	"license": "MIT",
+	"main": "app/index.js",
+	"repository": "ccummings/generator-canjs-plugin",
+	"author": {
+		"name": "Curtis Cummings",
+		"email": "curtis@curtiscummings.me",
+		"url": "https://github.com/ccummings"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"files": [
+		"app"
+	],
+	"keywords": [
+		"yeoman-generator",
+		"canjs"
+	],
+	"dependencies": {
+		"yeoman-generator": "~0.16.0",
+		"chalk": "~0.4.0",
+		"github": "~0.1.10"
+	},
+	"devDependencies": {
+		"mocha": "*"
+	},
+	"peerDependencies": {
+		"yo": ">=1.0.0"
+	}
+}

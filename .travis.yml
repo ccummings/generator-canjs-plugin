@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-canjs-plugin' ]; then cd .. && eval "mv $currentfolder generator-canjs-plugin" && cd generator-canjs-plugin; fi
+
