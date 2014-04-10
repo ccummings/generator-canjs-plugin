@@ -17,13 +17,13 @@ $ npm install -g yo generator-canjs-plugin
 Make a new directory and `cd` into it:
 
 ```bash
-mkdir my-plugin && cd my-plugin
+$ mkdir my-plugin && cd my-plugin
 ```
 
 Then run the generator to scaffold your plugin:
 
 ```bash
-yo generator-canjs-plugin
+$ yo generator-canjs-plugin
 ```
 ## Workflow
 
@@ -40,25 +40,25 @@ The following Grunt tasks are available:
 Runs jsbeautifier and JSHint:
 
 ```bash
-grunt quality
+$ grunt quality
 ```
 
 Runs tests:
 
 ```bash
-grunt test
+$ grunt test
 ```
 
 Runs tests and generates distributable files:
 
 ```bash
-grunt build
+$ grunt build
 ```
 
 ### Register with [Bower](http://bower.io/)
 
 ```bash
-bower register <plugin-name> <git-endpoint>
+$ bower register <plugin-name> <git-endpoint>
 ```
 
 Bower uses [git tags](http://git-scm.com/book/en/Git-Basics-Tagging) for versioning.
@@ -69,10 +69,10 @@ To publish a new version:
 - Tag a new version and push to origin
 
 ```bash
-git add .
-git commit -m 'Update to vX.Y.Z'
-git tag -a vX.Y.Z -m 'vX.Y.Z'
-git push --tags origin master
+$ git add .
+$ git commit -m 'Update to vX.Y.Z'
+$ git tag -a vX.Y.Z -m 'vX.Y.Z'
+$ git push --tags origin master
 ```
 
 ## License
