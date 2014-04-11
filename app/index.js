@@ -69,11 +69,6 @@ var CanjsPluginGenerator = yeoman.generators.Base.extend({
 			name: 'pluginDescription',
 			message: 'What does your plugin do?',
 			default: 'An awesome plugin for CanJS'
-		},
-		{
-			name: 'useTravis',
-			type: 'confirm',
-			message: 'do you want to use TravisCI?'
 		}];
 
 		this.prompt(prompts, function (props) {
@@ -81,7 +76,6 @@ var CanjsPluginGenerator = yeoman.generators.Base.extend({
 			this.pluginFullName = 'canjs-' + this.pluginName;
 			this.githubUser = props.githubUser;
 			this.pluginDescription = props.pluginDescription;
-			this.useTravis = props.useTravis;
 
 			done();
 		}.bind(this));

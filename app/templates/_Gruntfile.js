@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 		},
 
 		jsbeautifier: {
-			files: '<%= jshint.src %>',
+			files: '<%%= jshint.src %>',
 			options: {
 				config: ".jsbeautifyrc"
 			}

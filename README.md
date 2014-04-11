@@ -75,6 +75,12 @@ $ git tag -a vX.Y.Z -m 'vX.Y.Z'
 $ git push --tags origin master
 ```
 
+## Changelog
+
+### 0.0.1
+
+- Initial release
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
